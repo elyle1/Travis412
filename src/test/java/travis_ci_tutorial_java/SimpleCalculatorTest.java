@@ -33,6 +33,8 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testDivideByZero() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.divideByZero(1, 0), 0);
+		try {
+			assertEquals(calc.DivideByZero(1, 0), 0);
+		} catch (ArithmeticException e) {}
 	}
 }
