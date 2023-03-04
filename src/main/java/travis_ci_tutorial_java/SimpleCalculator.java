@@ -18,6 +18,8 @@ public class SimpleCalculator {
 	}
 
 	public int divideByZero(int a, int b) {
-		return a / b;
+		if (b == 0)
+			throw new ArithmeticException();
+		return -1;
 	}
 }
