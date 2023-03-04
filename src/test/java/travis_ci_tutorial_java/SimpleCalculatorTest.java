@@ -21,4 +21,9 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.multiply(5, 3), 15);
 	}
+	
+	public void testDivide() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.multiply(5, 3), 15);
+	}
 }
