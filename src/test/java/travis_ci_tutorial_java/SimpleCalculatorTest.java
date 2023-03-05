@@ -34,7 +34,7 @@ public class SimpleCalculatorTest {
 	public void testDivideByZero() {
 		SimpleCalculator calc = new SimpleCalculator();
 		try {
-			assertEquals(calc.divideByZero(1, 0), 0);
+			assertEquals(calc.divide(1, 0), 0);
 		} catch (ArithmeticException e) {}
 	}
 }

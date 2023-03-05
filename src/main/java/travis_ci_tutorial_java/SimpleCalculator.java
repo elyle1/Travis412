@@ -14,12 +14,8 @@ public class SimpleCalculator {
 	}
 	
 	public int divide(int a, int b) {
-		return a / b;
-	}
-
-	public int divideByZero(int a, int b) {
 		if (b == 0)
 			throw new ArithmeticException();
-		return -1;
+		return a / b;
 	}
 }
